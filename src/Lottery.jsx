@@ -5,7 +5,7 @@ import { genTicket } from './Helper';
 import Button from './Button'
 
 function Lottery({ n, win }) {
-    let [ticket, setTicket] = useState(genTicket(n));
+    let [ticket, setTicket] = useState([0,0,0]);
 
     function getTicket() {
         setTicket(genTicket(n));
