@@ -1,8 +1,21 @@
-# React + Vite
+# Lottery Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Lottery Game! This is a simple React.js-based lottery game that allows players to get a lottery ticket and checks if the player's ticket number matches the winning condition.
 
-Currently, two official plugins are available:
+## Usage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-**Generate a Ticket:** Once the game page is loaded, the player can click on the "Get Ticket" button, which will generate a random number representing their lottery ticket.
+
+-**Check Winning Status:** The ticket number will automatically be compared to the winning condition. If the player's ticket number matches the winning number, a success message will be displayed indicating the player has won. Otherwise, a message will indicate that the player is not a winner.
+
+## Technologies Used
+
+- **Language**: JavaScript
+- **Libraries**: React.js 
+
+## Installation
+
+To get started with the Lottery Game project, follow these steps:
+
+   ```bash
+   git clone https://github.com/DiptiYelve/LotteryGame.git
